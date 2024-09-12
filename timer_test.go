@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+// A timer is useful when you need to perform a task once after a specific duration has elapsed.
 func TestTimer(t *testing.T) {
 	timer := time.NewTimer(5 * time.Second)
 	fmt.Println(time.Now())
